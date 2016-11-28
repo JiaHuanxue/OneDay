@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.example.jiahuanxue20161128.singleTaskActivity">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="singleTaskActivity"
+        android:textSize="18dp"/>
+    <Button
+        android:id="@+id/singleTop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="singleTop栈顶复用模式"/>
+    <Button
+        android:id="@+id/singleTask"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="standard标准模式"/>
+    <Button
+        android:id="@+id/singleInstance"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="singleInstance单实例模式"/>
+
+</LinearLayout>
